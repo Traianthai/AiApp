@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".DescriptionActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="fill_vertical">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_height="80dp"
+            android:layout_width="match_parent"
+            android:gravity="bottom">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Phân tích lá cây"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunitosanslight"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#ffc6c6c6" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            tools:srcCompat="@tools:sample/avatars" />
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XIn chao"
+            android:textSize="32dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunitosanslight"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtDecripsion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="XIn chao"
+            android:fontFamily="@font/nunitosanslight"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/mHome"
+            android:title="Cài đặt"
+            android:icon="@drawable/ic_tree"/>
+        <item android:id="@+id/mHistory"
+            android:title="Thông tin"
+            android:icon="@drawable/ic_history"/>
+        <item android:id="@+id/mSearch"
+            android:title="Phản hồi"
+            android:icon="@drawable/ic_search"/>
+</menu>

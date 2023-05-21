@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="80dp"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:gravity="bottom">
+        <SearchView
+            android:id="@+id/search"
+            android:layout_marginTop="10dp"
+            app:iconifiedByDefault="false"
+            app:queryHint="Nhập tên lá cây"
+            android:background="@color/gray"
+            app:searchIcon="@color/teal_700"
+            app:closeIcon="@color/black"
+            app:queryBackground="@color/green"
+            app:hintTextColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#ffc6c6c6" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

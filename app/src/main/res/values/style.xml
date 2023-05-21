@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize the background color -->
+        <item name="android:background">@color/gray</item>
+        <!-- Customize the text color -->
+        <item name="android:textColor">@color/yellow</item>
+        <!-- Customize the hint text color -->
+        <item name="android:textColorHint">@color/green</item>
+        <!-- Customize the search icon -->
+        <item name="searchIcon">@color/black</item>
+        <!-- Customize the close icon -->
+        <item name="closeIcon">@color/teal_700</item>
+    </style>
+</resources>
